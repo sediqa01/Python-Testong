@@ -20,3 +20,4 @@ class Student:
     @property
     def email_address(self):
         return f"{self._first_name.lower()}.{self._last_name.lower()}@email.com"
+        
